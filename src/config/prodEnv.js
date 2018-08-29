@@ -1,4 +1,4 @@
 module.exports ={
-	signInUrl: `process.evn.APP_URL/signin`,
-	registerUrl: `process.evn.APP_URL/register`
+	signInUrl: 'https://frozen-eyrie-40157.herokuapp.com/signin',
+	registerUrl: 'https://frozen-eyrie-40157.herokuapp.com/register'
 }
