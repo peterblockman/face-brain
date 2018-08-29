@@ -1,4 +1,5 @@
 import React from 'react';
+import env from '../../config/env';
 
 class Register extends React.Component {
 	constructor(props){
@@ -21,7 +22,7 @@ class Register extends React.Component {
 	}
 
 	onSubmitSignIn =() =>{
-		fetch('https://frozen-eyrie-40157.herokuapp.com/register', {
+		fetch(env.registerUrl, {
 			method: 'post',
 			headers: {'Content-Type': 'application/json'},
 			body: JSON.stringify({
